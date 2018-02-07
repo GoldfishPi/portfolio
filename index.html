@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <title>Portfolio</title>
 
+  <script type="text/javascript" src="test.js"></script>
 
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
 
       <link rel="stylesheet" href="css/style.css">
@@ -15,29 +18,30 @@
 
 <body>
 
-  <script src="https://use.fontawesome.com/74ee1ccf0f.js"></script>
+<script src="https://use.fontawesome.com/74ee1ccf0f.js"></script>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Erik Badger</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
+<nav class="navbar navbar-expand-sm navbar-light bg-dark text-light fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNa">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#about">About</a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
   </div>
 </nav>
 
-<br>
+
+<div class="jumbotron jumbotron-fluid bg-dark text-white text-center" style="background:#aaa;">
+  <div class="container">
+    <h1 class="display-1">Erik Badger</h1>
+    <p class="lead"> Web Developer</p>
+  </div>
+</div>
 <div class="container text-center bg-muted" id="about">
   <h1 class="text-light">About</h1>
   <div class="top-page">
